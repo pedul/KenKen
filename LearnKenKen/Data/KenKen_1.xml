@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Grid Name = "Easy 4x4 KenKen" Index="1">
+  <Cages>
+    <Cage TargetValue="3" Operation="Subtract">
+      <Cells>
+        <Cell Row="0" Column="0" />
+        <Cell Row="1" Column="0" />
+      </Cells>
+    </Cage>
+    <Cage TargetValue="2" Operation="None">
+      <Cells>
+        <Cell Row="0" Column="1" />
+      </Cells>
+    </Cage>
+    <Cage TargetValue="2" Operation="Subtract">
+      <Cells>
+        <Cell Row="0" Column="2" />
+        <Cell Row="0" Column="3" />
+      </Cells>
+    </Cage>
+    <Cage TargetValue="6" Operation="Multiply">
+      <Cells>
+        <Cell Row="1" Column="1" />
+        <Cell Row="1" Column="2" />
+        <Cell Row="2" Column="2" />
+      </Cells>
+    </Cage>
+    <Cage TargetValue="2" Operation="Divide">
+      <Cells>
+        <Cell Row="1" Column="3" />
+        <Cell Row="2" Column="3" />
+      </Cells>
+    </Cage>
+    <Cage TargetValue="9" Operation="Add">
+      <Cells>
+        <Cell Row="2" Column="0" />
+        <Cell Row="2" Column="1" />
+        <Cell Row="3" Column="0" />
+      </Cells>
+    </Cage>
+    <Cage TargetValue="12" Operation="Multiply">
+      <Cells>
+        <Cell Row="3" Column="1" />
+        <Cell Row="3" Column="2" />
+        <Cell Row="3" Column="3" />
+      </Cells>
+    </Cage>
+  </Cages>
+</Grid>

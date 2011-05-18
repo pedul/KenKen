@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ArrayOfGrid>
+  <Grid Name = "Easy 4x4 KenKen" Index="1" />
+  <Grid Name = "Hard 4x4 KenKen" Index="2"/>
+  <Grid Name = "Easy 6x6 KenKen" Index="3"/>
+  <Grid Name = "Medium 6x6 KenKen" Index="4"/>
+  <Grid Name = "Hard 6x6 KenKen" Index="5"/>
+  <Grid Name = "Hard 7x7 KenKen (unsolved)" Index="6"/>
+</ArrayOfGrid>

@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ArrayOfReason>
+  <Reason Id="SingleCellCage">
+    <Why>
+      Cage @CageId has only one cell and its target value @CellValue is the solution
+    </Why>
+    <Detail>
+      Value for Cell @CellId is @CellValue
+    </Detail>
+  </Reason>
+  <Reason Id="PossibleSolutions">
+    <Detail>
+      Possible solutions for Cage @CageId are :- &lt;br/&gt; @FoundPossibilities
+    </Detail>
+    <DetailSingular>
+      Possible solution for Cage @CageId is :- &lt;br/&gt; @FoundPossibilities
+    </DetailSingular>
+    <DetailPlural>
+      Possible solutions for Cage @CageId are :- &lt;br/&gt; @FoundPossibilities
+    </DetailPlural>
+  </Reason>
+  <Reason Id="InvalidNumbersForNeighbours">
+    <Detail>
+      Values @UnusableNumbers are now invalid for cells @AffectedNeighbourCells
+    </Detail>
+    <DetailSingular>
+      Value @UnusableNumbers is now invalid for cells @AffectedNeighbourCells
+    </DetailSingular>
+    <DetailPlural>
+      Values @UnusableNumbers are now invalid for cells @AffectedNeighbourCells
+    </DetailPlural>
+  </Reason>
+  <Reason Id="FirstUnsolvedCell">
+    <Why>
+      We pick the first unsolved cell from @Dimension @DimensionNumber
+    </Why>
+  </Reason>
+  <Reason Id="InvalidNumberInCagePossibilities">
+    <Why>
+      Possible solution @InvalidPossibilities is not valid for Cage @CageId
+    </Why>
+    <WhySingular>
+      Possible solution @InvalidPossibilities is not valid for Cage @CageId
+    </WhySingular>
+    <WhyPlural>
+      Possible solutions @InvalidPossibilities are not valid for Cage @CageId
+    </WhyPlural>
+    <Detail>
+      We will discard solutions @InvalidPossibilities from Cage @CageId as they contain invalid numbers
+    </Detail>
+    <DetailSingular>
+      We will discard solution @InvalidPossibilities from Cage @CageId as it contains invalid numbers
+    </DetailSingular>
+    <DetailPlural>
+      We will discard solutions @InvalidPossibilities from Cage @CageId as they contain invalid numbers 
+    </DetailPlural>
+  </Reason>
+  <Reason Id="DiscardPossibilities">
+    <Detail>
+      We will discard solutions @InvalidPossibilities as they contain invalid numbers
+    </Detail>
+    <DetailSingular>
+      We will discard solution @InvalidPossibilities as it contains invalid numbers
+    </DetailSingular>
+    <DetailPlural>
+      We will discard solutions @InvalidPossibilities as they contain invalid numbers
+    </DetailPlural>
+  </Reason>
+  <Reason Id="OnlyOneValidValueInPossibleValuesForCell">
+    <Why>
+      @CellValue is the only valid value from the list of possible values for Cell @CellId
+    </Why>
+    <Detail>
+      Value for Cell @CellId is @CellValue
+    </Detail>
+  </Reason>
+  <Reason Id="DeletingInvalidPossibilityAfterCellSolved">
+    <Detail>
+      We will discard solutions @InvalidPossibilities from Cage @CageId as they do not contain value @CellValue
+    </Detail>
+    <DetailSingular>
+      We will discard solution @InvalidPossibilities from Cage @CageId as it does not contain value @CellValue
+    </DetailSingular>
+    <DetailPlural>
+      We will discard solutions @InvalidPossibilities from Cage @CageId as they do not contain value @CellValue
+    </DetailPlural>
+  </Reason>
+  <Reason Id="PossibilityInvalidForCell">
+    <Why>
+      Solution @InvalidPossibilities is invalid for Cell @CellId
+    </Why>
+    <Detail>
+      We will discard solution @InvalidPossibilities from Cage @CageId
+    </Detail>
+  </Reason>
+  <Reason Id="AllButOneValueDiscarded">
+    <Why>
+      Only @CellValue has not been discarded from Cell @CellId
+    </Why>
+    <Detail>
+      Value for Cell @CellId is @CellValue
+    </Detail>
+  </Reason>
+  <Reason Id="DiscardPossibilityForCell">
+    <Detail>
+      We will discard solution @InvalidPossibilities as it is invalid for Cell @CellId
+    </Detail>  
+  </Reason>
+  <Reason Id="DiscardPossibilityWithoutCellValue">
+    <Detail>
+      We will discard solutions @InvalidPossibilities as they do not contain value @CellValue
+    </Detail>
+    <DetailSingular>
+      We will discard solution @InvalidPossibilities as it does not contain value @CellValue
+    </DetailSingular>
+    <DetailPlural>
+      We will discard solutions @InvalidPossibilities as they do not contain value @CellValue
+    </DetailPlural>
+  </Reason>
+  <Reason Id="OnlyOneValueForMultidimensionalCageCell">
+    <Why>
+      Solutions @CagePossibilities are valid only if Cell @CellId contains value @CellValue
+    </Why>
+    <WhySingular>
+      Solution @CagePossibilities is valid only if Cell @CellId contains value @CellValue
+    </WhySingular>
+    <WhyPlural>
+      Solutions @CagePossibilities are valid only if Cell @CellId contains value @CellValue
+    </WhyPlural>
+    <Detail>
+      Value for Cell @CellId is @CellValue
+    </Detail>
+  </Reason>
+  <Reason Id="CellsInMultidimentionalCageMustContainValue">
+    <Why>
+      Any one of the cells @FoundCageCells must contain value @CageValue as other cells in @Dimension @DimensionNumber cannot
+    </Why>
+    <Detail>
+      We will discard solutions @InvalidPossibilities as they do not contain value @CageValue
+    </Detail>
+    <DetailSingular>
+      We will discard solution @InvalidPossibilities as it does not contain value @CageValue
+    </DetailSingular>
+    <DetailPlural>
+      We will discard solutions @InvalidPossibilities as they do not contain value @CageValue
+    </DetailPlural>
+  </Reason>
+  <Reason Id="InvalidPossibilitiesForMultidimensionalCage">
+    <Why>
+      Solutions @InvalidPossibilities are not valid for Cage @CageId
+    </Why>
+    <WhySingular>
+      Solution @InvalidPossibilities is not valid for Cage @CageId
+    </WhySingular>
+    <WhyPlural>
+      Solutions @InvalidPossibilities are not valid for Cage @CageId
+    </WhyPlural>
+    <Detail>
+      We will discard solutions @InvalidPossibilities from Cage @CageId
+    </Detail>
+    <DetailSingular>
+      We will discard solution @InvalidPossibilities from Cage @CageId
+    </DetailSingular>
+    <DetailPlural>
+      We will discard solutions @InvalidPossibilities from Cage @CageId
+    </DetailPlural>
+  </Reason>
+  <Reason Id="UnusableNumbersForMultidimensionalCageNeighbours">
+    <Why>
+      Values @UnusableNumbers are not valid for Cells @AffectedNeighbourCells as cells @FoundCageCells in @Dimension @DimensionNumber will contain these values
+    </Why>
+    <WhySingular>
+      Value @UnusableNumbers is not valid for Cells @AffectedNeighbourCells as cells @FoundCageCells in @Dimension @DimensionNumber will contain this value
+    </WhySingular>
+    <WhyPlural>
+      Values @UnusableNumbers are not valid for Cells @AffectedNeighbourCells as cells @FoundCageCells in @Dimension @DimensionNumber will contain these values
+    </WhyPlural>
+  </Reason>
+  <Reason Id="OnlyCellInDimensionThatCanContainValue">
+    <Why>
+      Only Cell @CellId in @Dimension @DimensionNumber can contain value @CellValue
+    </Why>
+    <Detail>
+      Value for Cell @CellId is @CellValue
+    </Detail>
+  </Reason>
+</ArrayOfReason>
