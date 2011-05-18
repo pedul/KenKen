@@ -42,7 +42,7 @@
                         <Items>
                             <asp:MenuItem NavigateUrl="~/Default.aspx" Text="Home"/>
                             <asp:MenuItem NavigateUrl="~/Help.aspx" Text="Help"/>                        
-                            <asp:MenuItem NavigateUrl="~/About.aspx" Text="Contact"/>                        
+                            <asp:MenuItem NavigateUrl="~/About.aspx" Text="Code and Contact"/>                        
                         </Items>
                         <StaticHoverStyle BackColor="#666666" ForeColor="White" />
                         <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
