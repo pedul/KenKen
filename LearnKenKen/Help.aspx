@@ -16,7 +16,7 @@
         
     <img alt="Failed to display help key" src="Images/kenkenhelp.png" />
 
-    <h2>KenKen Rules</h2>
+    <h2>KenKen Rules :</h2>
     <ol>
         <li>Do not repeat a number in any row or column.</li>
         <li>A 4x4 grid will use the digits 1-4, a 6x6 grid will use the digits 1-6 and so forth.</li>
