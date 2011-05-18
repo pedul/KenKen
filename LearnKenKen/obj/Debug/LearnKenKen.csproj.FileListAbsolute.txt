@@ -1,0 +1,5 @@
+C:\Hobby\LearnKenKen\LearnKenKen\bin\LearnKenKen.dll
+C:\Hobby\LearnKenKen\LearnKenKen\bin\LearnKenKen.pdb
+C:\Hobby\LearnKenKen\LearnKenKen\obj\Debug\ResolveAssemblyReference.cache
+C:\Hobby\LearnKenKen\LearnKenKen\obj\Debug\LearnKenKen.dll
+C:\Hobby\LearnKenKen\LearnKenKen\obj\Debug\LearnKenKen.pdb
