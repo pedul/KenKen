@@ -1,3 +1,5 @@
+Deployed at : http://kenken.apphb.com/
+
 To run the project open the solution file LearnKenKen.sln in Visual Studio.
 The project is of type ASP.NET Web Application and is written in C# and ASP.NET (webforms) using Visual Web Developer 2010 Express.
 
